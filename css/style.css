@@ -2,6 +2,7 @@ body{
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
+    color: #40514E;
    
     
 }
@@ -23,10 +24,14 @@ h3  {
 }
 a{
     color: #11999E;
-    padding: 20px;
+    margin: 20px;
     font-weight: bolder;
     font-size: 1.3rem;
     text-decoration: none;
+    
+}
+a:hover{
+    color: #e1f8f8;
 }
  h2 h3 {
     font-family: 'Montserrat', sans-serif;
@@ -46,19 +51,21 @@ p{
     
     
     background-color: #66BFBF;
-    padding: 75px;
+    padding: 50px;
     
 }
 .bottom-cloud{
-    
-    margin-right: 700px;
+    position: absolute;
+    left: 300px;
+    bottom: 400px;
 }
 .top-cloud{
-   
-    margin-left: 400px;
+    position: absolute;
+    right: 400px;
+    top: 50px;
     
 }
-.second-horizontal{
+.horizontal{
     width:8%;
     height: 1px;
     border: none;
@@ -90,15 +97,7 @@ p{
     width: 400px;
     height: 400px;
 }
-.first-horizonatl{
-    margin-top: 100px;
-    margin-bottom: 100px;
-    border:none;
-    border-top:10px dotted #e1f8f8;
-    height:1px;
-    width:8%;
-  
-}
+
 .btn {
     margin: 50px auto;
     background: #3D94F6;
